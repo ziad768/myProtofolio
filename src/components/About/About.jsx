@@ -37,12 +37,11 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-          <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+          <img src={getImageUrl("about/servericon.png")} alt="Cursor icon" />
           <div className={styles.aboutItemText}>
-            <h3>Frontend Developer</h3>
+            <h3>Stadying Backend </h3>
             <p>
-              I'm a frontend developer with experience in building responsive
-              and optimized sites
+              I'm a Stadying NodeJS , Express and  mongoDB 
             </p>
           </div>
         </li>
