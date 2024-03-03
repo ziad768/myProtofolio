@@ -24,7 +24,7 @@ export const About = () => {
           </li>
           <li className={styles.aboutItem}>
             <img
-              src="assets/skills/react.png"
+              src={getImageUrl("skills/react.png")}
               width={70}
               height={70}
               alt="React"
@@ -37,7 +37,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-          <img src={getImageUrl("about/servericon.png")} alt="Cursor icon" />
+          <img src={getImageUrl("about//serverIcon.png")} alt="Cursor icon" />
           <div className={styles.aboutItemText}>
             <h3>Stadying Backend </h3>
             <p>
